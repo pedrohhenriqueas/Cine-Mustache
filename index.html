@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/primeiraTela.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="shortcut icon" href="components/images/bigodeIcon.png" type="image/x-icon">
+    <script src="script/assentos.js"></script>
+    <title>Cine Mustache</title>
+
+</head>
+<body>
+    <header>
+        <div id="marca">
+            <div class="titulo">
+                <h1>Cine</h1>
+                <img src="components/images/bigode.png" alt="bigode" class="bigode">
+            </div>
+            <h1 style="margin-top: 3%;">Mustache</h1>
+        </div>
+
+        <ul>
+            <a href="index.html"><li>Início</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#" id="inscreva-se-bottom"><li>Já tem uma conta?</li></a>
+        </ul>
+    </header>
+
+    <br>
+    <h2>Filmes em cartaz:</h2>
+    
+    <main>
+    <div class="filme" id="01">
+        <img class="cartaz" src="components/images/vingadores.jpg" alt="vingadores">
+        
+        <div class="txt">
+            <div class="estrelas">
+                <h3>Vingadores Ultimato</h3>
+                <img id="estrelas" src="components/images/5estrelas.png" alt="estrelas">
+            </div>
+            <p>"Vingadores: Ultimato" é um épico de super-heróis que conclui a saga da Marvel, trazendo os heróis remanescentes em uma missão no tempo para derrotar Thanos. Repleto de ação e emoção, o filme culmina em batalhas intensas e um emocionante adeus a personagens queridos.</p>
+        </div>
+        <button onclick="copiarConteudo('01')">COMPRAR INGRESSOS</button>
+    </div>
+
+    <div class="filme" id="02">
+        <img class="cartaz" style="height: 400px;" src="components/images/piratas.jpg" alt="piratas">
+
+        <div class="txt">
+            <div class="estrelas" style="display: block;">
+                <h3>Piratas do Caribe: A Vingança de Salazar</h3>
+                <img id="estrelas" src="components/images/5estrelas.png" alt="estrelas" style="padding-left: 60px; margin-top: -10px;">
+            </div>
+            <p class="pitatastxt">"Piratas do Caribe: A Vingança de Salazar" segue o Capitão Jack Sparrow enquanto enfrenta o Capitão Salazar, um pirata amaldiçoado. Em busca do Tridente de Poseidon para escapar da maldição, Jack enfrenta perigos marítimos e alianças inesperadas.</p>
+        </div>
+        <button onclick="copiarConteudo('02')">COMPRAR INGRESSOS</button>
+    </div>
+
+    <div class="filme" id="03">
+        <img class="cartaz" style="height: 391px;" src="components/images/hp.jpg" alt="hp">
+        
+        <div class="txt">
+            <div class="estrelas">
+                <h3>Harry Potter e a Pedra Filosofal</h3>
+                <img id="estrelas" src="components/images/5estrelas.png" alt="estrelas">
+            </div>
+            <p>"Harry Potter e a Pedra Filosofal" narra a jornada mágica do jovem bruxo Harry Potter ao descobrir seu legado. Ele ingressa na Escola de Magia de Hogwarts, enfrenta desafios e desvenda mistérios para impedir a ameaça da pedra filosofal.</p>
+        </div>
+        <button onclick="copiarConteudo('03')">COMPRAR INGRESSOS</button>
+    </div>
+    </main>
+
+
+</body>
+</html>
