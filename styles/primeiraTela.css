@@ -1,0 +1,111 @@
+/*Estilos gerais*/
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    line-height: 20px;
+    max-width: 700px;
+    margin-left: 75px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Cor verde - você pode ajustar conforme necessário */
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer;
+}
+
+h2{
+    margin-bottom: -50px;
+}
+
+h3{
+    margin-bottom: 10px;
+    margin-left: 75px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+
+/*Header*/
+#marca{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.bigode{
+    border: none;
+    height: 30px;
+    width: auto;
+    margin-top: 4%;
+}
+
+
+/*Cartaz e Texto*/
+.cartaz{
+    width: 300px; /* Ajuste o tamanho desejado */
+    height: 350px; /* Ajuste o tamanho desejado */  
+    margin-top: 45px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.filme{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center;
+}
+
+.txt{
+    margin-right: 100px;
+}
+
+.estrelas{
+    display: flex;
+    flex-direction: row;
+}
+
+#estrelas{
+    height: 30px;
+    width: auto;
+    margin-top: 16px;
+    margin-left: 10px;
+   
+}

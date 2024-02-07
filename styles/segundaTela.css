@@ -1,0 +1,183 @@
+/*Estilos gerais*/
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    line-height: 20px;
+    max-width: 700px;
+    margin-left: 75px;
+}
+
+a{
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Cor verde - você pode ajustar conforme necessário */
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer;
+}
+
+h2{
+    margin-bottom: -50px;
+}
+
+h3{
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+/*Título e Header*/
+#marca{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.bigode{
+    border: none;
+    height: 30px;
+    width: auto;
+    margin-top: 7%;
+}
+
+
+/*Cartaz e Texto*/
+.cartaz{
+    width: 300px; /* Ajuste o tamanho desejado */
+    height: 350px; /* Ajuste o tamanho desejado */  
+    margin-top: 45px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+#filme{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center;
+}
+
+.txt{
+    margin-right: 100px;
+}
+
+.estrelas{
+    display: flex;
+    flex-direction: row;
+}
+
+#estrelas{
+    height: 30px;
+    width: auto;
+    margin-top: 16px;
+    margin-left: 10px;
+   
+}
+
+
+/*Fileiras e cadeiras*/
+
+
+.sala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    border: 3px solid white;
+    padding-top: 35px;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sala img:hover {
+    transform: scale(1.1);
+}
+
+/*.assentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 300px;
+    border: 3px solid white;
+    padding-top: 35px;
+    max-width: 900px;
+    border-radius: 10px;
+}*/
+
+.assentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 5%;
+    width: 100%;
+    }
+
+
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 20px;
+}
+
+.cadeira{
+    width: 100px;
+    height: 100px;
+    margin-top: -30px;
+    margin-right: -50px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.lateral{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.l1{
+    display: flex;
+    flex-direction: column;
+}
+
+.tela{
+    margin-top: 30px;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
